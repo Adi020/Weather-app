@@ -57,7 +57,7 @@ const Weather = ({weatherInfo}) => {
 
       </section>
 
-      <button className="bg-white text-blue-700 grid rounded-full" onClick={handleChangleTemp}>Change F / C</button>
+      <button className="text-blue-700" onClick={handleChangleTemp}>Change F / C</button>
 
     </section>
   )
