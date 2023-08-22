@@ -30,7 +30,7 @@ function App() {
     <>
       <main
         className={`${
-          weatherInfo ? bgImages[weatherInfo?.weather[0].icon] : "bg-black"
+          weatherInfo ? bgImages[weatherInfo?.weather[0].icon] : "n9"
         } px-5 color bg-cover color min-h-screen text-white flex justify-center items-center font-principal-font`}
       >
         {weatherInfo ? <Weather weatherInfo={weatherInfo} /> : <Loader />}
