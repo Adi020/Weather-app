@@ -69,3 +69,17 @@
 .d50 {
     background-image: url("/images/bg-images/50d.jpg");
 }
+
+.weather__container {
+    position: relative;
+}
+
+.weather__container::after {
+    transform: skewY(10deg);
+}
+
+.weather__btn {
+    -webkit-box-shadow: 0px 6px 5px -1px rgba(0, 0, 0, 0.51);
+    -moz-box-shadow: 0px 6px 5px -1px rgba(0, 0, 0, 0.51);
+    box-shadow: 0px 6px 5px -1px rgba(0, 0, 0, 0.51);
+}
